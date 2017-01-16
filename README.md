@@ -1,12 +1,9 @@
 # SimpleIssueTracker-token-based-RESTFul-
 
 Following things are implemented:
-###i.   Every endpoint need user authentication -->complete
-###ii.  Authentication should be stateless (access_token) -->complete
-###iii. User who created the issue only should be able to edit or delete that issue -->complete
-####iv. Whenever an Issue is created or assigned to different user(in case of update), 
-####an email should be triggered exactly after 12 mins to the particular user saying issue has been assigned to him/her.
-####-->partially,as email is triggered immediately not after 12 min for hardcoded case only.i.e if the sender is "amol.3793@gmail.com"
+###i.   Every endpoint need user authentication e
+###ii.  Authentication should be stateless (access_token) 
+###iii. User who created the issue only should be able to edit or delete that issue 
 
 
 **1. GET  "/users" or "/" --> will give all register user  (no login required)**
